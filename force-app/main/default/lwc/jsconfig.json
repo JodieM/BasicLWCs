@@ -5,6 +5,9 @@
         "paths": {
             "c/displayFields": [
                 "displayFields/displayFields.js"
+            ],
+            "c/localDevWrapper": [
+                "localDevWrapper/localDevWrapper.js"
             ]
         }
     },

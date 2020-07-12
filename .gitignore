@@ -6,3 +6,4 @@ Referenced Packages
 /config
 /.forceignore
 /sfdx-project.json
+/.localdevserver
