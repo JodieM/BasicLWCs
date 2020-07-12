@@ -7,3 +7,5 @@ Referenced Packages
 /.forceignore
 /sfdx-project.json
 /.localdevserver
+/force-app/main/default/flexipages
+/force-app/main/default/quickActions
