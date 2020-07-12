@@ -1,12 +1,13 @@
 <template>
-    <template if:true={errorOccured}>
-        <p>{errorMessage}</p>
-    </template>
-    <template if:false={errorOccured}>
-        <lightning-card variant="base" title="Account Key Fields" icon-name="standard:account">
-            <!-- <lightning-record-form record-id={recordId} object-api-name={objectApiName}
-                fields={fields} columns="1" mode="view">
-            </lightning-record-form> -->
-        </lightning-card>
-    </template>
+    <lightning-card variant="Narrow" title="Account Key Fields" icon-name="standard:account">
+        <div class="slds-card__body slds-card__body_inner">
+            <lightning-record-form 
+            record-id={recordId}
+            object-api-name={objectApiName}
+            fields={fields}
+            columns=2
+            mode="view">
+            </lightning-record-form>
+        </div>    
+    </lightning-card>
 </template>
