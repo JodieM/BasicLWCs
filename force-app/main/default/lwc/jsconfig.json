@@ -5,9 +5,6 @@
         "paths": {
             "c/displayFields": [
                 "displayFields/displayFields.js"
-            ],
-            "c/DisplayFields": [
-                "DisplayFields/DisplayFields.js"
             ]
         }
     },
